@@ -22,4 +22,4 @@ At the moment "todo_md_maker.py" should be a simple as dropping into your git re
 ---
 
 ## Markdown preservation
-If the generated todo's section does not exist, it will append to the end of the markdown document. If it does exist, the code will preserve any content that exists after the double horizontal rule ("---\r\n---")--")
+If the generated todo's section does not exist, it will append to the end of the markdown document. If it does exist, the code will preserve any content that exists after the double horizontal rule ("---\r\n---")
