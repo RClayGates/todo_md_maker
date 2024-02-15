@@ -33,6 +33,7 @@ def main():
                     content = info[1].strip().replace("# TODONE:",f"\t- [x] line #{info[0]}:")
                 file_obj.write(bytes(content,ENCODING)+b"\r\n")
         file_obj.write(preserve_content)
+        file_obj.truncate()
 
 
     pass
