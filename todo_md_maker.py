@@ -28,9 +28,9 @@ def main():
             file_obj.write(bytes("### "+key,ENCODING)+b"\r\n")
             for info in todo_dict[key]:
                 if info[1].find("# TODO:") != -1:
-                    content = info[1].strip().replace("# TODO:",f"\t- [ ] line #{info[0]}:")
+                    content = info[1].strip().replace("# TODO:",f"- [ ] line #{info[0]}:")
                 elif info[1].find("# TODONE:") != -1:
-                    content = info[1].strip().replace("# TODONE:",f"\t- [x] line #{info[0]}:")
+                    content = info[1].strip().replace("# TODONE:",f"- [x] line #{info[0]}:")
                 file_obj.write(bytes(content,ENCODING)+b"\r\n")
         file_obj.write(preserve_content)
         file_obj.truncate()

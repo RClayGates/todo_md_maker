@@ -13,11 +13,11 @@ At the moment "todo_md_maker.py" should be a simple as dropping into your git re
 
 ## Generated Todo's
 ### Src\main.py
-	- [ ] line #10: Make code that will rock user's socks
+- [ ] line #10: Make code that will rock user's socks
 ### Src\subdir\stuff.py
-	- [ ] line #5: Create database wrapper.py
-	- [x] line #14: Create Convenience Class
-	- [ ] line #19: Make getter/setter methods
+- [ ] line #5: Create database wrapper.py
+- [x] line #14: Create Convenience Class
+- [ ] line #19: Make getter/setter methods
 ---
 ---
 
