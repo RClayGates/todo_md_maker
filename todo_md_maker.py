@@ -56,6 +56,8 @@ def find_readme_header() -> tuple[int,int]:
 def get_paths() -> list:
     target_pys = []
     for dir_path, _, file_names in os.walk(SRC_DIR):
+        if ".env" in dir_path:
+            continue
         for file in file_names:
             if os.path.splitext(file)[1] == ".py":
                 path = os.path.normpath(os.path.join(dir_path,file))
